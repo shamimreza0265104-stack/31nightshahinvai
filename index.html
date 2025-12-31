@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>31 Night Special</title>
+
+<style>
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #020024, #090979, #000);
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+    max-width: 420px;
+    margin: auto;
+}
+
+/* Images */
+.photo {
+    width: 100%;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+    opacity: 0;
+}
+
+/* Animations */
+.fade { animation: fadeIn 1.8s forwards; }
+.slide { animation: slideIn 1.8s forwards; }
+.zoom { animation: zoomIn 1.8s forwards; }
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(80px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Text sections */
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.poem {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    line-height: 1.8;
+    animation: fadeIn 2s forwards;
+}
+
+.poem span {
+    color: #ffd369;
+    font-weight: bold;
+}
+
+.long-text {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.9;
+    opacity: 0.9;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px 0 10px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="title">✨ 31 Night Memories ✨</div>
+
+    <img src="https://i.postimg.cc/50QBRj9Q/IMG-20251217-WA0020.jpg" class="photo fade">
+    <img src="https://i.postimg.cc/Dw7cw253/IMG-20251211-WA0038.jpg" class="photo slide">
+    <img src="https://i.postimg.cc/NGrDNC5B/IMG-20251204-WA0027.jpg" class="photo zoom">
+
+    <!-- Poem -->
+    <div class="poem">
+        <span>Shahin ভাই</span><br><br>
+        রক্তের নয়, তবুও আপন হয়ে,<br>
+        পাশে থেকেছো নীরব ছায়া হয়ে।<br>
+        ভুল করলে বুঝিয়েছো ধীরে,<br>
+        আগলে রেখেছো নিজের মতো করে।<br><br>
+
+        এক বছর নয়, পুরো সময়টাই,<br>
+        হাসি–কান্না ভাগ করেছি ভাই।<br>
+        যদি কথায় কষ্ট দিয়ে থাকি,<br>
+        আজ এই রাতে মাফ চেয়ে থাকি।
+    </div>
+
+    <!-- More text -->
+    <div class="long-text">
+        আজ ৩১ নাইট।  
+        বছরের শেষ রাত।  
+        এই রাতটা শুধু উদযাপনের না,  
+        কিছু মানুষকে মনে করারও।<br><br>
+
+        তুমি আমার জীবনে এমন একজন,  
+        যে পাশে থেকেছো কোনো স্বার্থ ছাড়াই।  
+        ভবিষ্যতে হয়তো পথ আলাদা হবে,  
+        কিন্তু এই সম্পর্কের সম্মান  
+        সবসময় একই থাকবে।<br><br>
+
+        নতুন বছরে দোয়া—  
+        আল্লাহ যেন তোমাকে সুস্থ রাখেন,  
+        সফল রাখেন,  
+        আর হাসিটা যেন কখনো হারিয়ে না যায়।  
+        <br><br>
+        তোমার আদরের ছোট ভাই শামিম
+    </div>
+
+    <div class="footer">
+        Made with 🤍 by Shamim
+    </div>
+
+</div>
+</body>
+</html>
